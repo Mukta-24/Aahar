@@ -32,6 +32,12 @@
   text-align: right;
 }
 
+.heading {
+  font-family: 'Samarkan', sans-serif;
+  font-size: 25px;
+                                                
+}
+
 .icon img {
   width: 27px;
   margin-bottom: 7px;

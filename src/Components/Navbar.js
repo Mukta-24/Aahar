@@ -9,12 +9,12 @@ export default function NavBar() {
         <div className='mt-2'>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">
-                    <span className='icon'><img src='box.png'/></span> DabbeWALA</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='heading'>
+                    <span className='icon'><img src='box.png'/></span> AAHAR</Navbar.Brand>
                     <div className='align-text'>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#add">Add Tiffin Center</Nav.Link>
+                        <Nav.Link href="#add">About Us</Nav.Link>
                         <Nav.Link href="#menu">Menu</Nav.Link>
                         <Nav.Link href="#login">Login</Nav.Link>
                         <Nav.Link href="#signup">Sign Up</Nav.Link>
