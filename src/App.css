@@ -29,19 +29,32 @@
 }
 
 .align-text {
-  text-align: right;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+}
+.navigation a{
+  margin: 0 25px 0 25px;
 }
 
 .heading {
-  font-family: 'Samarkan', sans-serif;
-  font-size: 25px;
-                                                
+  font-family:'samarkan';
+  font-size: xxx-large;                                               
 }
 
+.title {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.icon{
+  display: flex;
+  align-items: center;
+}
 .icon img {
-  width: 27px;
-  margin-bottom: 7px;
-
+  width: 44px;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
