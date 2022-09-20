@@ -15,7 +15,17 @@ span{
 }
 .btn{
     background-color: orangered;
+    color: white;
 }
-Button{
-    border: 0;
+.btn:hover{
+    background-color: orangered;
+    color: white;
+}
+.sub-img .sub-img1{
+    width: 40%;
+    height: 150px;
+}
+.sub-img .sub-img2{
+    width: 30%;
+    height: 200px;
 }
