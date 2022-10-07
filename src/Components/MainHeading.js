@@ -17,8 +17,34 @@ function MainHeading() {
           <div className="main_bg">
             {/* <img src='https://restaurantapp-c2ed6.web.app/static/media/heroBg.c43c4862422e70d88698.png'/> */}
             <div className="sub-img">
-              <img className="sub-img1" src="alu-parotha-removebg-preview.png" alt="" srcset="" />
-              <img className="sub-img2" src="shakes.jpg" alt="" srcset="" />
+              <div className="upper">
+                <div className="box box1">
+                  <img className="sub-img1" src="images/alu-parotha-removebg-preview.png" alt="" srcSet="" />
+                  <div className="box_info info1">
+                    <h5>BREAK FAST</h5>
+                  </div>
+                </div>
+                <div className="box box2">
+                  <img className="sub-img2" src="images/shakes-removebg-preview.png" alt="" srcSet="" />
+                  <div className="box_info info2">
+                    <h5>DRINKS</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="lower">
+                <div className="box box3">
+                  <img className="sub-img3" src="images/combo.png" alt="" srcSet="" />
+                  <div className="box_info info3">
+                    <h5>COMBOS</h5>
+                  </div>
+                </div>
+                <div className="box box4">
+                  <img className="sub-img4" src="images/snakes.png" alt="" srcSet="" />
+                  <div className="box_info info4">
+                    <h5>SNACKS</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </Col>

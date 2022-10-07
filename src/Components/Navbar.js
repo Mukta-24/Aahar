@@ -13,7 +13,7 @@ export default function NavBar() {
                     <Navbar.Brand href="#home" style={{padding:0, margin:0}} >
                         <div className='title'>
                             <div className='icon'>
-                                <img src='aahar_logo-removebg-preview.png' />
+                                <img src='images/aahar_logo-removebg-preview.png' />
                             </div>
                             <div className='heading'>AAHAR
                             </div>
