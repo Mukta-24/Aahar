@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { Navbar, Nav } from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -13,7 +13,7 @@ export default function NavBar() {
                     <Navbar.Brand href="#home" style={{padding:0, margin:0}} >
                         <div className='title'>
                             <div className='icon'>
-                                <img src='aahar_logo-removebg-preview.png' />
+                                <img src='images/aahar_logo-removebg-preview.png' />
                             </div>
                             <div className='heading'>AAHAR
                             </div>
@@ -27,7 +27,6 @@ export default function NavBar() {
                             <Nav.Link href="#login">Login</Nav.Link>
                             <Nav.Link href="#signup">Sign Up</Nav.Link>
                             <Nav.Link href="#cart"><i className="fa-sharp fa-solid fa-cart-shopping"></i></Nav.Link>
-                            
                         </Nav>
                     </div>
                 </Container>
