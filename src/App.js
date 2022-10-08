@@ -12,10 +12,10 @@ function App() {
     <>
     <NavBar/>
     <MainHeading/>
-    <Foodfav/>
-    <Footer/>
     <NewF/>
     <Special_dishes/>
+    <Foodfav/>
+    <Footer/>
     </>
   );
 }
