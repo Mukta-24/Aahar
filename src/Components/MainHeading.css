@@ -1,6 +1,6 @@
 .main_container{
     margin-top: 30px;
-    height: 702px;
+    /* height: 702px; */
 }
 .main_heading{
     font-family: 'Roboto Slab', serif;
@@ -125,18 +125,18 @@ span{
 .item:hover{
     background-color: rgba(232, 252, 253, 0.651);
 }
-.image{
+.images{
     position: absolute;
     top: -48px;
     left: 0;
 }
-.image img{
+.images img{
     width: 200px;
     transition: transform .2s ease-in-out;
     /* box-shadow: inset 2px 2px 50px rgb(214, 214, 214); */
     /* border-radius: 50%; */
 }
-.image img:hover{
+.images img:hover{
     transform: scale(1.2);
 }
 .info{

@@ -21,7 +21,7 @@ function Foodfav() {
               const { id ,name, image} = item;
               return (
                 <div className="item" key={id}>
-                  <div className="image">
+                  <div className="images">
                     <img src={image} alt="" srcset="" />
                   </div>
                   <div className="info">
