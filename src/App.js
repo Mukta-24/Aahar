@@ -13,6 +13,7 @@ function App() {
     <NavBar/>
     <MainHeading/>
     <NewF/>
+    
     <Foodfav/>
     <Footer/>
     </>

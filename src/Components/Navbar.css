@@ -1,0 +1,29 @@
+.align-text {
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 19px;
+  }
+  .navigation a{
+    margin: 0 25px 0 25px;
+  }
+ 
+  .heading {
+    font-family:'samarkan';
+    font-size: xxx-large;                                               
+  }
+  
+  .title {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+  }
+  .icon img {
+    width: 44px;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,6 +1,6 @@
 .main_container{
     margin-top: 30px;
-    height: 702px;
+    /* height: 702px; */
 }
 .main_heading{
     font-family: 'Roboto Slab', serif;
@@ -121,22 +121,38 @@ span{
     padding: 20px;
     border-radius: 1rem;
     position: relative;
+    /* border: 3px solid brown; */
 }
-.item:hover{
-    background-color: rgba(232, 252, 253, 0.651);
+.item:hover {
+    background-color: rgba(249, 215, 178, 0.53);
 }
-.image{
+.images{
     position: absolute;
     top: -48px;
     left: 0;
+    /* border: 2px solid black; */
 }
-.image img{
+
+.name{
+    /* border: 1px solid black; */
+    font-family:'poppins';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dish-name{
+    margin: 0;
+    padding: 0;
+    position:relative ;
+}
+
+.images img{
     width: 200px;
     transition: transform .2s ease-in-out;
     /* box-shadow: inset 2px 2px 50px rgb(214, 214, 214); */
     /* border-radius: 50%; */
 }
-.image img:hover{
+.images img:hover{
     transform: scale(1.2);
 }
 .info{
@@ -144,9 +160,9 @@ span{
     height: 140px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
 }
 .footer{
     width: 100%;
