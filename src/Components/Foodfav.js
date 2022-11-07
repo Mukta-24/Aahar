@@ -17,16 +17,17 @@ function Foodfav() {
             <h1>Our Best Seller</h1>
           </div>
           <div className="corousel">
-            {data.map((item) => {
-              const { id ,name, image} = item;
+            {data.map((items) => {
+              const { id ,name, image, size,rate,color} = items;
               return (
                 <div className="item" key={id}>
-                  <div className="images">
-                    <img src={image} alt="" srcset="" />
+                  <div className= "images">
+                    <img style={{width: {size}}} src={image} alt="" srcSet="" />
                   </div>
                   <div className="info">
                     <div className="name">
-                      <p>{name}</p>
+                      <p className="dish-name">{name}</p>
+                      <p>{rate}</p>
                     </div>
                   </div>
                 </div>
