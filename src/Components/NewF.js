@@ -7,7 +7,7 @@ export default function NewF() {
       <div className='_2RZ'>
         <div className="_2Zn">
           <div className="image">
-            <img className='no_min' src='4x_-_No_min_order_x0bxuf.png' />
+            <img className='no_min' src='images/4x_-_No_min_order_x0bxuf.png' />
           </div>
           <div className="head"> No Minimum Order</div>
           <div className="content">
@@ -18,7 +18,7 @@ export default function NewF() {
 
         <div className="_2Zn">
           <div className="image">
-            <img className='no_min' src='4x_Live_order_zzotwy.png' />
+            <img className='no_min' src='images/4x_Live_order_zzotwy.png' />
           </div>
           <div className="head"> Live Order Tracking</div>
           <div className="content">
@@ -29,7 +29,7 @@ export default function NewF() {
 
         <div className="_2Zn">
           <div className="image">
-            <img className='no_min' src='4x_-_Super_fast_delivery_awv7sn.png' />
+            <img className='no_min' src='images/4x_-_Super_fast_delivery_awv7sn.png' />
           </div>
           <div className="head"> Food on Time</div>
           <div className="content">
@@ -37,8 +37,6 @@ export default function NewF() {
             where you have flexibility with feasibility
           </div>
         </div>
-
-
       </div>
     </div>
   )
