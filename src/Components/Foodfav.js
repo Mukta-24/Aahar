@@ -22,7 +22,7 @@ function Foodfav() {
               return (
                 <div className="item" key={id}>
                   <div className= "images">
-                    <img style={{width:{size}, backgroundColor:{color}}} src={image} alt="" srcSet="" />
+                    <img style={{width: {size}}} src={image} alt="" srcSet="" />
                   </div>
                   <div className="info">
                     <div className="name">
