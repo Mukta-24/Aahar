@@ -34,14 +34,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.align-text {
+/* .align-text {
   text-align: center;
   font-family:'Poppins', sans-serif;
   font-weight:bold;
@@ -50,9 +50,7 @@ body {
 .navigation a{
   margin: 0 25px 0 25px;
 }
-/* body{
-  position: relative;;
-} */
+
 .heading {
   font-family:'samarkan';
   font-size: xxx-large;                                               
@@ -71,5 +69,5 @@ body {
   width: 44px;
   display: flex;
   justify-content: center;
-}
+} */
 

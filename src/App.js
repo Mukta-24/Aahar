@@ -5,7 +5,7 @@ import MainHeading from './Components/MainHeading';
 import Footer from './Components/Footer';
 import Foodfav from './Components/Foodfav';
 import NewF from './Components/NewF';
-import Special_dishes from './Components/Special_dishes';
+
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
     <NavBar/>
     <MainHeading/>
     <NewF/>
-    <Special_dishes/>
+    
     <Foodfav/>
     <Footer/>
     </>

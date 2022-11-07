@@ -3,12 +3,13 @@
     /* height: 702px; */
 }
 .main_heading{
+    margin-top: 12px;
     font-family: 'Roboto Slab', serif;
     font-size: 3rem;
     font-weight: bold;
 }
 .main_image{
-    padding: 50px 0;
+    padding: 60px 0;
 }
 span{
     color: orangered;
@@ -66,22 +67,22 @@ span{
     margin: 0px 0px 50px;
 }
 .box .sub-img1{
-    width: 87%;
+    width: 186px;
     height: 150px;
     top: -55px;
 }
 .box .sub-img2{
-    width: 50%;
+    width: 100px;
     height: 200px;
     top: -112px;
 }
 .box .sub-img3{
     top: -78px;
-    width: 90%;
+    width: 175px;
     height: 188px;
 }
 .box .sub-img4{
-    width: 80%;
+    width: 150px;
     height: 120px;
     top: -40px;
 }
@@ -97,6 +98,7 @@ span{
     font-family: 'Roboto Slab', serif;
 }
 .special{
+    margin-top: 74px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -121,15 +123,31 @@ span{
     padding: 20px;
     border-radius: 1rem;
     position: relative;
+    /* border: 3px solid brown; */
 }
-.item:hover{
-    background-color: rgba(232, 252, 253, 0.651);
+.item:hover {
+    background-color: rgba(249, 215, 178, 0.53);
 }
 .images{
     position: absolute;
     top: -48px;
     left: 0;
+    /* border: 2px solid black; */
 }
+
+.name{
+    /* border: 1px solid black; */
+    font-family:'Roboto Slab';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dish-name{
+    margin: 0;
+    padding: 0;
+    position:relative ;
+}
+
 .images img{
     width: 200px;
     transition: transform .2s ease-in-out;
@@ -144,9 +162,9 @@ span{
     height: 140px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
 }
 .footer{
     width: 100%;
