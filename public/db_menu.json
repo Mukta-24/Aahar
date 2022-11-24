@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    },
+    {
+        "id": 2,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    },
+    {
+        "id": 3,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    },
+    {
+        "id": 4,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    },
+    {
+        "id": 5,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    },
+    {
+        "id": 6,
+        "name": "Burger + Pepsi",
+        "description": "1 masala cheeze burger, 700ml coco-cola",
+        "price": "50"
+    }
+    
+]
