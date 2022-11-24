@@ -3,7 +3,7 @@
     "id": 1,
     "name":"Aaloo Paratha",
     "image":"images/alu-parotha-removebg-preview.png",
-    "size":"300px",
+    "size":"200px",
     "rate":"RS.50",
     "color":"blue"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name":"Burger",
     "image":"images/burger-transformed.png",
-    "size":"140px",
+    "size":"150px",
     "rate":"RS.40",
     "color":"gray"
   },
@@ -19,14 +19,14 @@
     "id": 3,
     "name":"Pav Bhaji",
     "image":"images/pav-bhavji.png",
-    "size":"215px",
+    "size":"200px",
     "rate":"RS.50"
   },
   {
     "id": 4,
     "name":"Uttpam",
     "image":"images/Uttpam.png",
-    "size":"24px",
+    "size":"240px",
     "rate":"RS.70"
   },
   {
@@ -59,9 +59,9 @@
   },
   {
     "id": 9,
-    "name":"Colf Coffee",
+    "name":"Cold Coffee",
     "image":"images/coffee.png",
-    "size":"200px",
+    "size":"150px",
     "rate":"RS.40"
   },
   {

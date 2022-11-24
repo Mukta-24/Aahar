@@ -166,6 +166,14 @@ span{
     align-items: flex-end;
     /* border: 2px solid red; */
 }
+.addCart{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+}
+/* .addCart button i{
+    width: 50px;
+} */
 .footer{
     width: 100%;
     background-color: black;
