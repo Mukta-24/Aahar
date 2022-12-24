@@ -21,22 +21,22 @@ export default function NavBar() {
                         <ul className="navbar-nav ml-auto mb-2 mb-lg-0 align-text options">
                             <li className="nav-item bo">
 
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link " aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item bo">
-                                <a className="nav-link" href="/About">About</a>
+                                <a className="nav-link " href="/About">About</a>
+                            </li>
+                            <li className="nav-item bo ">
+                                <a className="nav-link " href="/menu">Menu</a>
                             </li>
                             <li className="nav-item bo">
-                                <a className="nav-link" href="/menu">Menu</a>
+                                <a className="nav-link " href="/login">Login</a>
+                            </li>
+                            <li className="nav-item bo ">
+                                <a className="nav-link " href="/register">Sign Up</a>
                             </li>
                             <li className="nav-item bo">
-                                <a className="nav-link" href="/login">Login</a>
-                            </li>
-                            <li className="nav-item bo">
-                                <a className="nav-link" href="/register">Sign Up</a>
-                            </li>
-                            <li className="nav-item bo">
-                                <a className="nav-link" href="#"><i className="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                <a className="nav-link " href="#"><i className="fa-sharp fa-solid fa-cart-shopping"></i></a>
                             </li>
                         </ul>
                     </div>

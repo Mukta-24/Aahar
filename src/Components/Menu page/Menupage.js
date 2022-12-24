@@ -11,10 +11,10 @@ function Menupage() {
             .then(setmData);
     }, []);
 
-    //  if (!mdata || mdata.length>0) return null;
+      if (!mdata || mdata.length===0) return null;
     return (
         <>
-            <div>
+            {/* <div>
 
                 <nav className="navbar navbar-expand-lg bg-light nav-start">
                     <div className="container-fluid title">
@@ -48,13 +48,13 @@ function Menupage() {
                         </div>
                     </div>
                 </nav>
-            </div>
+            </div> */}
             <div className='main'>
                 <div className="banner">
                     <p className='menu-word'>Menu</p>
-                    <img src="https://demo.themewinter.com/wp/gloreya/wp-content/themes/gloreya/assets/images/banner/banner_image.png" alt="" />
+                    <img src="image.png" alt="" />
                 </div>
-{/* adding combos list */}
+                {/* adding combos list */}
                 <div className="M-head">
                     <div className="M-heads">
                         <div className="M-name"> Menu</div>
@@ -63,32 +63,30 @@ function Menupage() {
                 </div>
                 <div className="M-list">
                     <div className="M-component">
-
                         <div className="combine-main">
-
-                            {mdata.map((items) => {
-                                const { id, name, price, description } = items;
-                                return (
-                                    <>
-
-                                        <div className="M-item" key={id}>
-                                            {/* <div className='name-price-description'> */}
-                                            <div className="M-image">
-                                                <img src="images/combo1.jpg" alt="" />
-                                            </div>
-                                            <div className="M-combine">
-                                                <div className="name-price">
-                                                    <div className="combo-name">{name}</div>
-                                                    <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                            {/* {console.log(mdata)} */}
+                            {mdata[0].items.map((curElement) => {
+                                {console.log("data",curElement ) }
+                                const { id, name, price, description, image } = curElement;
+                                
+                                    return (
+                                        <>
+                                            <div className="M-item" key={id}>    
+                                                <div className="M-image">
+                                                    <img src={image} alt="image" />
                                                 </div>
-
-                                                <div className="combo-description">{description}</div>
+                                                <div className="M-combine">
+                                                    <div className="name-price">
+                                                        <div className="combo-name">{name}</div>
+                                                        <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                                                    </div>
+                                                        <div className="combo-description">{description}</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </>
-
-                                )
+                                        </>    
+                                    )
                             })}
+  
                         </div>
                         {/* <Col className="combine-main">
                         <div className="M-image"> 
@@ -129,31 +127,31 @@ function Menupage() {
                     <Row className="carts">
                         <Col className="cart1">
                             <div className="cart-detail">
-                            <div className="cart-description">
-                                <p className='special-heading'>  this month special </p>
-                                <p> The Japanese Oishiii Burgirrrr</p>
+                                <div className="cart-description">
+                                    <p className='special-heading'>  this month special </p>
+                                    <p> The Japanese Oishiii Burgirrrr</p>
 
-                            </div>
-                            <div className="cart-image">
-                                <img src="images/combo1.jpg" alt="" />
-                            </div>
+                                </div>
+                                <div className="cart-image">
+                                    <img src="images/combo1.jpg" alt="" />
+                                </div>
                             </div>
                         </Col>
                         <Col className="cart2">
-                        <div className="cart-detail">
-                            <div className="cart-description">
-                                <p className='special-heading'>  this month special </p>
-                                <p> The Japanese Oishiii Burgirrrr</p>
+                            <div className="cart-detail">
+                                <div className="cart-description">
+                                    <p className='special-heading'>  this month special </p>
+                                    <p> The Japanese Oishiii Burgirrrr</p>
 
-                            </div>
-                            <div className="cart-image">
-                                <img src="images/combo1.jpg" alt="" />
-                            </div>
+                                </div>
+                                <div className="cart-image">
+                                    <img src="images/combo1.jpg" alt="" />
+                                </div>
                             </div>
                         </Col>
                     </Row>
                 </div>
-{/* adding breakfast list */}
+                {/* adding breakfast list */}
                 <div className="M-head">
                     <div className="M-heads">
                         <div className="M-name"> Menu</div>
@@ -164,63 +162,31 @@ function Menupage() {
                     <div className="M-component">
 
                         <div className="combine-main">
-
-                            {mdata.map((items) => {
-                                const { id, name, price, description } = items;
-                                return (
-                                    <>
-
-                                        <div className="M-item" key={id}>
-                                            {/* <div className='name-price-description'> */}
-                                            <div className="M-image">
-                                                <img src="images/combo1.jpg" alt="" />
-                                            </div>
-                                            <div className="M-combine">
-                                                <div className="name-price">
-                                                    <div className="combo-name">{name}</div>
-                                                    <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                        {mdata[1].items.map((curElement) => {
+                                {console.log("data",curElement ) }
+                                const { id, name, price, description } = curElement;
+                                
+                                    return (
+                                        <>
+                                            <div className="M-item" key={id}>    
+                                                <div className="M-image">
+                                                    <img src="images/combo1.jpg" alt="" />
                                                 </div>
-
-                                                <div className="combo-description">{description}</div>
+                                                <div className="M-combine">
+                                                    <div className="name-price">
+                                                        <div className="combo-name">{name}</div>
+                                                        <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                                                    </div>
+                                                        <div className="combo-description">{description}</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </>
-
-                                )
+                                        </>    
+                                    )
                             })}
-                        </div>
-                        {/* <Col className="combine-main">
-                        <div className="M-image"> 
-                            <img src="images/combo1.jpg" alt="" />
-                        </div>
-                        <div className="M-combine">
-                            <div className="combo-name"> Pepsi + burger</div>
-                            <div className="combo-description"> 1 coco-cola, Masala cheese burger </div>
 
+                            
                         </div>
-                    </Col>
-                    </Row>
-                    <Row>
-                    <Col className="combine-main">
-                        <div className="M-image"> 
-                            <img src="images/combo1.jpg" alt="" />
-                        </div>
-                        <div className="M-combine">
-                            <div className="combo-name"> Pepsi + burger</div>
-                            <div className="combo-description"> 1 coco-cola, Masala cheese burger </div>
-
-                        </div>
-                    </Col>
-                    <Col className="combine-main">
-                        <div className="M-image"> 
-                            <img src="images/combo1.jpg" alt="" />
-                        </div>
-                        <div className="M-combine">
-                            <div className="combo-name"> Pepsi + burger</div>
-                            <div className="combo-description"> 1 coco-cola, Masala cheese burger </div>
-
-                        </div>
-                    </Col> */}
+                    
                     </div>
 
                 </div>

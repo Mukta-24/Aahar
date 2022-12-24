@@ -25,15 +25,18 @@ function App() {
     {/* <NavBar/>
     <Menupage/>
     <Footer/> */}
+    {/* <Menupage/> */}
+    <NavBar/>
     <Router>
       <Routes>
-      <Route exact path="/" element={<NavBar/>}/>
+      
       <Route path="/about" element={<About/>}/>
         <Route path="/menu" element={<Menupage/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
       </Routes>
      </Router>
+    <Footer/>
     </>
   );
 }

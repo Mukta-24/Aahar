@@ -32,6 +32,10 @@
   .navigation a{
     margin: 0 25px 0 25px;
   }
+
+ a:active {
+    color: black;
+  }
  
   .heading {
     font-family:'samarkan';
