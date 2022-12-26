@@ -4,7 +4,6 @@ import { useCartContext } from "./Cart_Context";
 
 
 function Foodfav() {
-
   const {addTocart} = useCartContext();
   // function addTocart(id, name, rate){
   //   console.log(id + " " + name + " " + rate )
@@ -19,6 +18,7 @@ function Foodfav() {
 
   if (!data || !data.length) return null;
 
+  // const {productItem} = data;
   return (
     <>
       <section className="special">
@@ -44,7 +44,7 @@ function Foodfav() {
                   <div className="info">
                     <div className="name">
                       <p className="dish-name">{name}</p>
-                      <p>{rate}</p>
+                      <p>₹{rate}</p>
                     </div>
                   </div>
                 </div>

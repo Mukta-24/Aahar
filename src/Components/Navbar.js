@@ -5,17 +5,18 @@ import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { motion } from "framer-motion";
 import "./Navbar.css";
 import { useCartContext } from "./Cart_Context";
-
+// import CartAmountToggle from "./CartAmountToggle";
 
 export default function NavBar() {
-  const { decrement, cart, increment, count } = useCartContext();
+  const { cart, ClearCart, decrement, increment, remove, total_item, total_amount, shipping_fee} = useCartContext();
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light nav-start">
+      <nav className="navbar navbar-expand-lg nav-start">
         <div className="container-fluid title">
           <div className="icon">
             <img src="images/aahar_logo-removebg-preview.png" />{" "}
@@ -66,7 +67,8 @@ export default function NavBar() {
               </li>
               <li className="nav-item bo">
                 <button className="cartBtn" onClick={handleShow}>
-                  <i className="fa-sharp fa-solid fa-cart-shopping"></i>
+                  <i className="fa-sharp fa-solid fa-cart-shopping cart-trolley"></i>
+                  <span className="cart-total-item"><p>{total_item}</p></span>
                 </button>
                 <Offcanvas
                   placement="end"
@@ -84,7 +86,9 @@ export default function NavBar() {
                     </motion.div>
                     <Offcanvas.Title>Cart</Offcanvas.Title>
                     <motion.div whileTap={{ scale: 0.75 }}>
-                      <button className="clear-btn">Clear</button>
+                      <button className="clear-btn" onClick={ClearCart}>
+                        Clear
+                      </button>
                     </motion.div>
                   </Offcanvas.Header>
                   {cart && cart.length > 0 ? (
@@ -92,31 +96,30 @@ export default function NavBar() {
                       <div className="cart-items">
                         <div className="cart-upper">
                           {cart.map((curElem) => {
-                            const { id, name, image, rate } = curElem;
+                            const { id, name, image, rate, quantity } = curElem;
                             return (
                               <div className="cart-list" key={id}>
                                 <div className="list-img">
-                                  <img
-                                    src={image}
-                                    alt={id}
-                                    srcSet=""
-                                  />
+                                  <img src={image} alt={id} srcSet="" />
                                 </div>
                                 <div className="list-name">
                                   <p>{name}</p>
-                                  <p>{rate}</p>
+                                  <p>₹{rate}</p>
+                                  {/* <p>{num}</p> */}
                                 </div>
                                 <div className="list-counter">
-                                  <button className="dec count" onClick={()=>decrement(id)}>
-                                    -
-                                  </button>
-                                  <p className="count">{count}</p>
-                                  <button
-                                    className="inc count"
-                                    onClick={() =>increment(id)}
-                                  >
-                                    +
-                                  </button>
+                                  <div className="toggle">
+                                    <button className="dec count" onClick={() => decrement(id)}>
+                                      -
+                                    </button>
+                                    <p className="count">{quantity}</p>
+                                    <button className="inc count" onClick={() => increment(id)}>
+                                      +
+                                    </button>
+                                  </div>
+                                  <div className="remove">
+                                    <button onClick={() => remove(id)}>Remove</button>
+                                  </div>
                                 </div>
                               </div>
                             );
@@ -127,17 +130,17 @@ export default function NavBar() {
                         <div className="amount">
                           <div className="rupee tax">
                             <p className="text">Sub Total</p>
-                            <p className="num">{}</p>
+                            <p className="num">₹{total_amount}</p>
                           </div>
                           <div className="deliver tax">
                             <p className="text">Delivery</p>
-                            <p className="num">$6</p>
+                            <p className="num">₹{shipping_fee}</p>
                           </div>
                         </div>
                         <hr />
                         <div className="tot-amount tax">
                           <p className="text">Total</p>
-                          <p className="num">$58</p>
+                          <p className="num">₹{shipping_fee + total_amount}</p>
                         </div>
                         <div className="payment-btn">
                           <motion.div whileTap={{ scale: 0.8 }}>
