@@ -1,9 +1,12 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import Foodfav from './Foodfav'
 import './MainHeading.css'
+import NewF from './NewF'
 function MainHeading() {
   return (
     <>
+    {/* Main Heading */}
     <Container className='main_div'>
       <Row className='main_container'>
         <Col className='main_content'>
@@ -50,6 +53,10 @@ function MainHeading() {
         </Col>
       </Row>
     </Container>
+    {/* NewFeature */}
+    <NewF/>
+    {/* FavFood */}
+    <Foodfav/>
     </>
     
   )

@@ -41,27 +41,27 @@ export default function NavBar() {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 align-text options">
               <li className="nav-item bo">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item bo">
-                <a className="nav-link" href="#About">
+                <a className="nav-link" href="/About">
                   About
                 </a>
               </li>
               <li className="nav-item bo">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/MenuPage">
                   Menu
                 </a>
               </li>
               <li className="nav-item bo">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/Login">
                   Login
                 </a>
               </li>
               <li className="nav-item bo">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/Register">
                   Sign Up
                 </a>
               </li>
