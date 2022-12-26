@@ -18,12 +18,12 @@ import About from './About/about';
 function App() {
   return (
     <>
-    <NavBar/>
+    {/* <NavBar/> */}
     {/* <Menu/> */}
-    <MainHeading/>
+    {/* <MainHeading/>
     <NewF/>
     <Foodfav/>
-    <Footer/>
+    <Footer/> */}
     { /* <Cart/> */ }
     {/* <NavBar/>
     <MainHeading/>
@@ -33,15 +33,18 @@ function App() {
     {/* <NavBar/>
     <Menupage/>
     <Footer/> */}
-    {/* <Router>
+    {/* <Menupage/> */}
+    <NavBar/>
+    <Router>
       <Routes>
-      <Route exact path="/" element={<NavBar/>}/>
+      
       <Route path="/about" element={<About/>}/>
         <Route path="/menu" element={<Menupage/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
       </Routes>
-     </Router> */}
+     </Router>
+    <Footer/>
     </>
   );
 }
