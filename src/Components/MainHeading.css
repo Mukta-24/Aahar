@@ -1,6 +1,8 @@
+.main{
+    border: 2px solid black;
+}
 .main_container{
     margin-top: 30px;
-    /* height: 702px; */
 }
 .main_heading{
     margin-top: 12px;
@@ -166,6 +168,14 @@ span{
     align-items: flex-end;
     /* border: 2px solid red; */
 }
+.addCart{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+}
+/* .addCart button i{
+    width: 50px;
+} */
 .footer{
     width: 100%;
     background-color: black;

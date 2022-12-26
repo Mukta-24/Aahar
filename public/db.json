@@ -3,86 +3,84 @@
     "id": 1,
     "name":"Aaloo Paratha",
     "image":"images/alu-parotha-removebg-preview.png",
-    "size":"300px",
-    "rate":"RS.50",
-    "color":"blue"
+    "size":"200px",
+    "rate": 50
   },
   {
     "id": 2,
     "name":"Burger",
     "image":"images/burger-transformed.png",
-    "size":"140px",
-    "rate":"RS.40",
-    "color":"gray"
+    "size":"150px",
+    "rate":40
   },
   {
     "id": 3,
     "name":"Pav Bhaji",
     "image":"images/pav-bhavji.png",
-    "size":"215px",
-    "rate":"RS.50"
+    "size":"200px",
+    "rate":50
   },
   {
     "id": 4,
     "name":"Uttpam",
     "image":"images/Uttpam.png",
-    "size":"24px",
-    "rate":"RS.70"
+    "size":"240px",
+    "rate":70
   },
   {
     "id": 5,
     "name":"Sandwich",
     "image":"images/sandwich-removebg-preview.png",
     "size":"200px",
-    "rate":"RS.30"
+    "rate":30
   },
   {
     "id": 6,
     "name":"Samosa",
     "image":"images/samosa-transformed.png",
     "size":"200px",
-    "rate":"RS.20"
+    "rate":20
   },
   {
     "id": 7,
     "name":"Machurian",
     "image":"images/manchurian-removebg-preview.png",
     "size":"200px",
-    "rate":"RS.65"
+    "rate":65
   },
   {
     "id": 8,
     "name":"Maggiiee",
     "image":"images/magiiee-removebg-preview.png",
     "size":"200px",
-    "rate":"RS.35"
+    "rate":35
   },
   {
     "id": 9,
-    "name":"Colf Coffee",
+    "name":"Cold Coffee",
     "image":"images/coffee.png",
-    "size":"200px",
-    "rate":"RS.40"
+    "size":"150px",
+    "rate":40
   },
   {
     "id": 10,
     "name":"French Fries",
     "image":"images/frenchFries-removebg-preview.png",
     "size":"200px",
-    "rate":"RS.50"
+    "rate":50
   },
   {
     "id": 11,
     "name":"Poha",
     "image":"images/poha.png",
     "size":"200px",
-    "rate":"RS.20"
+    "rate":20
   },
   {
     "id": 12,
     "name":"Noodles",
     "image":"images/noodles.png",
     "size":"200px",
-    "rate":"RS.65"
+    "rate":65
   }
 ]

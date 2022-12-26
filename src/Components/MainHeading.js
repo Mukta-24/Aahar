@@ -4,7 +4,7 @@ import './MainHeading.css'
 function MainHeading() {
   return (
     <>
-    <Container className='main'>
+    <Container className='main_div'>
       <Row className='main_container'>
         <Col className='main_content'>
           <p className='main_heading'>The Best Way to <span>Connect</span> with your college</p>

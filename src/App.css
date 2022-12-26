@@ -7,11 +7,6 @@ body{
   width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 body {
   width: 100%;
   display: flex;
@@ -20,9 +15,6 @@ body {
   /* border: 1px solid black; */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 /* .align-text {
   text-align: center;
