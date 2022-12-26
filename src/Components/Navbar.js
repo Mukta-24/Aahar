@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 // import { fa-arrow-left } from "react-icons/fa";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./Navbar.css";
 import { useCartContext } from "./Cart_Context";
 // import CartAmountToggle from "./CartAmountToggle";
@@ -77,19 +77,19 @@ export default function NavBar() {
                   onHide={handleClose}
                 >
                   <Offcanvas.Header>
-                    <motion.div whileTap={{ scale: 0.75 }}>
+                    {/* <motion.div whileTap={{ scale: 0.75 }}> */}
                       <MdOutlineKeyboardBackspace
                         style={{ fontSize: "30px" }}
                         className="text-textColor"
                         onClick={handleClose}
                       />
-                    </motion.div>
+                    {/* </motion.div> */}
                     <Offcanvas.Title>Cart</Offcanvas.Title>
-                    <motion.div whileTap={{ scale: 0.75 }}>
+                    {/* <motion.div whileTap={{ scale: 0.75 }}> */}
                       <button className="clear-btn" onClick={ClearCart}>
                         Clear
                       </button>
-                    </motion.div>
+                    {/* </motion.div> */}
                   </Offcanvas.Header>
                   {cart && cart.length > 0 ? (
                     <Offcanvas.Body className="canvas-body">
@@ -143,9 +143,9 @@ export default function NavBar() {
                           <p className="num">₹{shipping_fee + total_amount}</p>
                         </div>
                         <div className="payment-btn">
-                          <motion.div whileTap={{ scale: 0.8 }}>
+                          {/* <motion.div whileTap={{ scale: 0.8 }}> */}
                             <button>Proceed to payment</button>
-                          </motion.div>
+                          {/* </motion.div> */}
                         </div>
                       </div>
                     </Offcanvas.Body>

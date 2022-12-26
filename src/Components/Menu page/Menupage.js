@@ -52,7 +52,7 @@ function Menupage() {
             <div className='main'>
                 <div className="banner">
                     <p className='menu-word'>Menu</p>
-                    <img src="image.png" alt="" />
+                    <img src="https://demo.themewinter.com/wp/gloreya/wp-content/themes/gloreya/assets/images/banner/banner_image.png" alt="" />
                 </div>
                 {/* adding combos list */}
                 <div className="M-head">
