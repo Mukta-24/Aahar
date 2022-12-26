@@ -175,6 +175,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-direction: row; */
+    
 }
 
 .cart-detail {
@@ -186,22 +187,28 @@
     /* border: 2px solid blueviolet; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(249, 159, 3);
-    border-radius: 5px;
-    color: white;
+    background-color: rgb(246, 171, 41);
+    border-radius: 70px;
+    color: black;
+    border: 2px solid black;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: monospace; */
     
 }
 
 .cart-description{
     /* border: 2px solid black; */
-    font-family: cursive;
+    font-family: monospace;
     text-decoration: wavy;
     margin: 0 50px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: large;
+    font-size: 17px;
 
 }
 

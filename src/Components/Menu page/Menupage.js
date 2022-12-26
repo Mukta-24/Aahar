@@ -128,7 +128,7 @@ function Menupage() {
                         <Col className="cart1">
                             <div className="cart-detail">
                                 <div className="cart-description">
-                                    <p className='special-heading'>  this month special </p>
+                                    <p className='special-heading'> <strong>Friday Offer</strong> </p>
                                     <p> The Japanese Oishiii Burgirrrr</p>
 
                                 </div>
