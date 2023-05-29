@@ -137,13 +137,10 @@
     /* flex-direction: row; */
     margin: 15px;
 }
-
-
-
 .combo-name {
     /* border: 1px solid black; */
     margin: 0 81px 0 0;
-    
+    width: 80%;
 }
 
 .M-price {
@@ -190,7 +187,7 @@
     background-color: rgb(246, 171, 41);
     border-radius: 70px;
     color: black;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 220px;
     display: flex;
     align-items: center;

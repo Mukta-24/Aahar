@@ -6,40 +6,43 @@
             {
                 "id": 1,
                 "name": "POHA",
-                "description": "",
+                "description": "lorem ipsum though frene",
                 "price": "10",
-                "image":"images/poha.png"
+                "image":"images/combo1.jpg"
             },
             {
                 "id": 2,
                 "name": "SAMOSA ",
-                "description": "",
+                "description": "lorem ipsum though frene",
                 "price": "10",
-                "image":"images/samosa-transformed.png"
+                "image":"images/combo1.jpg"
             },
             {
                 "id": 3,
                 "name": "Kachori",
-                "description": "",
+                "description": "lorem ipsum though frene",
                 "price": "10",
-                "image":"poha.png"
+                "image":"images/combo1.jpg"
             },
             {
                 "id": 4,
-                "name": "Butter Khichdii",
-                "description": "",
+                "name": "Khichdi",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "70"
             },
             {
                 "id": 5,
                 "name": "Khaman",
-                "description": "100gm",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "30"
             }  ,
             {
                 "id": 6,
                 "name": "Bhajiya",
-                "description": "100gm",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "30"
             }
             
@@ -55,12 +58,14 @@
                 "id": 1,
                 "name": "Idli chili",
                 "description": "",
+                "image":"images/combo1.jpg",
                 "price": "70"
             },
             {
                 "id": 2,
                 "name": "bzkjbcl",
                 "description": "1 masala cheeze burger, 700ml coco-cola",
+                "image":"images/combo1.jpg",
                 "price": "50"
             }     
         ]
@@ -71,50 +76,53 @@
         "items": [
             {
                 "id": 1,
-                "name": "Chilli Paneer",
-                "description": "Medium spicy with green capsicum",
+                "name": "Paneer",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "80"
             },
             {
                 "id": 2,
-                "name": "Hakka Noodles",
-                "description": "cripsy noodles with sauces",
+                "name": " Noodles",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "60"
             },
             {
                 "id": 3,
                 "name": "Chinese Bhel",
-                "description": "Bhel with chinese taste, sauces, spicy",
+                "description": "lorem ipsum though frene",
+                "image":"images/combo1.jpg",
                 "price": "70"
             },
             {
                 "id": 4,
-                "name": "Veg Paneer Fried Rice",
-                "description": "fried rice with some paneer",
+                "name": "Veg Paneer",
+                "description": "lorem ipsum though frene",
                 "price": "70"
             },
             {
                 "id": 5,
-                "name": "French Fries",
-                "description": "",
+                "name": " Fries",
+                "description": "lorem ipsum though frene",
                 "price": "60"
             },
             {
                 "id": 6,
-                "name": "Hakka Noodles",
-                "description": "cripsy noodles with sauces",
+                "name": "Noodles",
+                "description": "lorem ipsum though frene",
                 "price": "60"
             },
             {
                 "id": 7,
-                "name": "Machurian Rice",
-                "description": "rice with manchurian ball",
+                "name": "Rice",
+                "description": "lorem ipsum though frene",
                 "price": "70"
             } ,
             {
                 "id": 8,
-                "name": "Manchurian Noodles",
-                "description": "manchurian with noodles",
+                "name": " Noodles",
+                "description": "lorem ipsum though frene",
                 "price": "70"
             }            
         ]
