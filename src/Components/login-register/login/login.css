@@ -1,11 +1,12 @@
 .login-main{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     margin: 45px;
 }
 
 .login {
+    border: 2px solid red;
     width: 400px;
     background: white;
     border: 1px solid #dddfe2;
@@ -16,7 +17,8 @@
 }
 
 .login >input {
-    border-radius: 8px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
     border: 2px solid #dddfe2;
     outline: none;
     color: #1d2129;
@@ -36,4 +38,6 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+    /* width: fit-content; */
+
 }

@@ -58,7 +58,7 @@ function Menupage() {
                 <div className="M-head">
                     <div className="M-heads">
                         <div className="M-name"> Menu</div>
-                        <div className="M-combos">Combos</div>
+                        <div className="M-combos">Breakfast</div>
                     </div>
                 </div>
                 <div className="M-list">
@@ -78,7 +78,7 @@ function Menupage() {
                                                 <div className="M-combine">
                                                     <div className="name-price">
                                                         <div className="combo-name">{name}</div>
-                                                        <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                                                        <div className="M-price">₹{price}</div>
                                                     </div>
                                                         <div className="combo-description">{description}</div>
                                                 </div>
@@ -155,14 +155,14 @@ function Menupage() {
                 <div className="M-head">
                     <div className="M-heads">
                         <div className="M-name"> Menu</div>
-                        <div className="M-combos">Breakfast</div>
+                        <div className="M-combos">Chinese</div>
                     </div>
                 </div>
                 <div className="M-list">
                     <div className="M-component">
 
                         <div className="combine-main">
-                        {mdata[1].items.map((curElement) => {
+                        {mdata[2].items.map((curElement) => {
                                 {console.log("data",curElement ) }
                                 const { id, name, price, description } = curElement;
                                 
@@ -175,7 +175,7 @@ function Menupage() {
                                                 <div className="M-combine">
                                                     <div className="name-price">
                                                         <div className="combo-name">{name}</div>
-                                                        <div className="M-price"><i class="fa-solid fa-dollar-sign"></i> {price}</div>
+                                                        <div className="M-price">₹{price}</div>
                                                     </div>
                                                         <div className="combo-description">{description}</div>
                                                 </div>

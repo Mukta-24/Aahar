@@ -4,19 +4,19 @@ import { useContext } from "react";
 import reducer from "./cartReducer";
 
 const CartContext = createContext();
-const getLocalCartData = () =>{
-    let localCartData = localStorage.getItem("StoreCart");
-    if(localCartData === 'undefined'){
-        // console.log("hello");
-        return [];
-    }
-    else{
-        return JSON.parse(localCartData);
-    }
-}
+// const getLocalCartData = () =>{
+//     let localCartData = localStorage.getItem("StoreCart");
+//     if(localCartData === 'undefined'){
+//         // console.log("hello");
+//         return [];
+//     }
+//     else{
+//         return JSON.parse(localCartData);
+//     }
+// }
 const initialState = {
-    // cart:[],
-    cart: getLocalCartData(),
+    cart:[],
+    // cart: getLocalCartData(),
     total_item: "",
     total_amount: "",
     shipping_fee: 50,
@@ -49,7 +49,7 @@ const CartProvider = ({children}) =>{
     useEffect(()=>{
         dispatch({type : "CART_TOTAL_ITEM"})
         dispatch({type : "CART_TOTAL_PRICE"})
-        localStorage.setItem("StoreCart", JSON.stringify(state.cart))
+        // localStorage.setItem("StoreCart", JSON.stringify(state.cart))
     }, [state.cart])
     return <CartContext.Provider value={{...state, addTocart, increment, decrement, ClearCart, remove}}>{children}</CartContext.Provider>
 };

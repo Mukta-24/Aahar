@@ -33,7 +33,7 @@ const Register = () => {
       alert("posted")
       axios.post("http://localhost:9002/register", user)
         .then(res => console.log(res))
-      navigate("/login")
+      // navigate("/login")
     } else {
       alert("invalid")
     }
