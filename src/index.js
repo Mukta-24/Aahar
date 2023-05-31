@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { CartProvider } from './Components/Cart_Context';
+import { CartProvider } from './Components/Home Page/Cart_Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

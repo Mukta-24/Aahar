@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-// import { motion } from "framer-motion";
-// import { useCartContext } from "./Cart_Context";
+import { motion } from "framer-motion";
+import { useCartContext } from "./Cart_Context";
 
 
 function Foodfav() {
-  // const {addTocart} = useCartContext();
+  const {addTocart} = useCartContext();
   // function addTocart(id, name, rate){
   //   console.log(id + " " + name + " " + rate )
   // }
@@ -32,14 +32,14 @@ function Foodfav() {
               return (
                 <div className="item" key={id}>
                   <div className="images">
-                    <img style={{ width: size }} src={image} alt="" srcSet=""/>
+                    <img style={{ width: size }} src={image} alt="" srcSet="" />
                   </div>
                   <div className="addCart">
-                    {/* <motion.div whileTap={{ scale: 0.75 }}> */}
-                    <button className="cartBtn" >
+                    <motion.div whileTap={{ scale: 0.75 }}>
+                    <button className="cartBtn" onClick={() =>addTocart(id, name, rate, image)}>
                       <i className="fa-sharp fa-solid fa-cart-shopping fa-lg"></i>
                     </button>
-                    {/* </motion.div> */}
+                    </motion.div>
                   </div>
                   <div className="info">
                     <div className="name">

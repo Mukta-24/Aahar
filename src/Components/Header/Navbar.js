@@ -4,7 +4,7 @@ import { MdOutlineKeyboardBackspace } from "react-icons/md";
 // import { fa-arrow-left } from "react-icons/fa";
 // import { motion } from "framer-motion";
 import "./Navbar.css";
-import { useCartContext } from "./Cart_Context";
+import { useCartContext } from "../Home Page/Cart_Context";
 // import CartAmountToggle from "./CartAmountToggle";
 
 export default function NavBar() {

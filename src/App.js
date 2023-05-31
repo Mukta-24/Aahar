@@ -1,14 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Components/Navbar';
-import MainHeading from './Components/MainHeading';
-import Footer from './Components/Footer';
+import MainHeading from './Components/Home Page/MainHeading';
+import Footer from './Components/Footer/Footer';
 import Menupage from './Components/Menu page/Menupage';
 import { BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Login from './Components/login-register/login/login';
 import Register from './Components/login-register/register/register';
-import About from './Components/About';
-
+import About from './Components/About Page/About';
+import NavBar from './Components/Header/Navbar';
 
 function App() {
   return (

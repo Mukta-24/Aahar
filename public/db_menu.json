@@ -6,44 +6,41 @@
             {
                 "id": 1,
                 "name": "POHA",
-                "description": "lorem ispum thought of school",
+                "description": "lorem ipsum though frene",
                 "price": "10",
                 "image":"images/combo1.jpg"
             },
             {
                 "id": 2,
                 "name": "SAMOSA ",
-                "description": "lorem ispum thought of school",
+                "description": "",
                 "price": "10",
                 "image":"images/combo1.jpg"
             },
             {
                 "id": 3,
                 "name": "Kachori",
-                "description": "lorem ispum thought of school",
+                "description": "",
                 "price": "10",
                 "image":"images/combo1.jpg"
             },
             {
                 "id": 4,
-                "name": "Khichdii",
-                "description": "lorem ispum thought of school",
-                "price": "70",
-                "image":"images/combo1.jpg"
+                "name": "Butter Khichdii",
+                "description": "",
+                "price": "70"
             },
             {
                 "id": 5,
                 "name": "Khaman",
-                "description": "lorem ispum thought of school",
-                "price": "30",
-                "image":"images/combo1.jpg"
+                "description": "100gm",
+                "price": "30"
             }  ,
             {
                 "id": 6,
                 "name": "Bhajiya",
-                "description": "lorem ispum thought of school",
-                "price": "30",
-                "image":"images/combo1.jpg"
+                "description": "100gm",
+                "price": "30"
             }
             
 
@@ -58,12 +55,14 @@
                 "id": 1,
                 "name": "Idli chili",
                 "description": "",
+                "image":"images/combo1.jpg",
                 "price": "70"
             },
             {
                 "id": 2,
                 "name": "bzkjbcl",
                 "description": "1 masala cheeze burger, 700ml coco-cola",
+                "image":"images/combo1.jpg",
                 "price": "50"
             }     
         ]
@@ -74,50 +73,50 @@
         "items": [
             {
                 "id": 1,
-                "name": " Paneer",
-                "description": "lorem ispum thought of school",
+                "name": "Chilli Paneer",
+                "description": "Medium spicy with green capsicum",
                 "price": "80"
             },
             {
                 "id": 2,
-                "name": " Noodles",
-                "description": "lorem ispum thought of school",
+                "name": "Hakka Noodles",
+                "description": "cripsy noodles with sauces",
                 "price": "60"
             },
             {
                 "id": 3,
-                "name": " Bhel",
-                "description": "lorem ispum thought of school",
+                "name": "Chinese Bhel",
+                "description": "Bhel with chinese taste, sauces, spicy",
                 "price": "70"
             },
             {
                 "id": 4,
-                "name": "Fried Rice",
-                "description": "lorem ispum thought of school",
+                "name": "Veg Paneer Fried Rice",
+                "description": "fried rice with some paneer",
                 "price": "70"
             },
             {
                 "id": 5,
-                "name": "French ",
-                "description": "lorem ispum thought of school",
+                "name": "French Fries",
+                "description": "",
                 "price": "60"
             },
             {
                 "id": 6,
-                "name": "Hakka ",
-                "description": "lorem ispum thought of school",
+                "name": "Hakka Noodles",
+                "description": "cripsy noodles with sauces",
                 "price": "60"
             },
             {
                 "id": 7,
-                "name": "Machurian ",
-                "description": "lorem ispum thought of school",
+                "name": "Machurian Rice",
+                "description": "rice with manchurian ball",
                 "price": "70"
             } ,
             {
                 "id": 8,
-                "name": "Manchurian ",
-                "description": "lorem ispum thought of school",
+                "name": "Manchurian Noodles",
+                "description": "manchurian with noodles",
                 "price": "70"
             }            
         ]
