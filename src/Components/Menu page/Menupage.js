@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import "./Menupage.css"
+import Search from './Search';
 
 function Menupage() {
     const [mdata, setmData] = useState([]);
@@ -14,42 +15,10 @@ function Menupage() {
       if (!mdata || mdata.length===0) return null;
     return (
         <>
-            {/* <div>
-
-                <nav className="navbar navbar-expand-lg bg-light nav-start">
-                    <div className="container-fluid title">
-                        <div className="icon"><img src='images/aahar_logo-removebg-preview.png' /> </div>
-                        <a className="navbar-brand heading" href="#">AAHAR</a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-                            <ul className="navbar-nav ml-auto mb-2 mb-lg-0 align-text options">
-                                <li className="nav-item bo">
-
-                                    <a className="nav-link active" aria-current="page" href="/">Home</a>
-                                </li>
-                                <li className="nav-item bo">
-                                    <a className="nav-link" href="/About">About</a>
-                                </li>
-                                <li className="nav-item bo">
-                                    <a className="nav-link" href="/menu">Menu</a>
-                                </li>
-                                <li className="nav-item bo">
-                                    <a className="nav-link" href="/login">Login</a>
-                                </li>
-                                <li className="nav-item bo">
-                                    <a className="nav-link" href="/register">Sign Up</a>
-                                </li>
-                                <li className="nav-item bo">
-                                    <a className="nav-link" href="#"><i className="fa-sharp fa-solid fa-cart-shopping"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div> */}
             <div className='main'>
+                <div >
+                 <Search/>
+                </div>
                 <div className="banner">
                     <p className='menu-word'>Menu</p>
                     <img src="https://demo.themewinter.com/wp/gloreya/wp-content/themes/gloreya/assets/images/banner/banner_image.png" alt="" />
